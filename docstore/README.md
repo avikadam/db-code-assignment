@@ -1,9 +1,10 @@
-## DB Coding Assignment  
+## Doc store application suite
   
-### Following are the assignments  
-1. Doc store application suite (consisting 3 services) developed using React + Redux, Node.js, MongoDB, Axios Http Client, etc)
+###  Application suite consist of 3 services as following
 
-2. Trade store application in Java  
+1. Doc Store Authorization server
+2. Doc Store File server
+3. Doc Store File upload client
   
 
 <br/>  
@@ -11,8 +12,39 @@
 
 ## How to run.
 
-1. Checkout/download the repo
-2. Run "Doc Store"
-	<br/> Refer <a href="https://github.com/avikadam/db-code-assignment/docstore/README.md">Doc store readme</a> 
-3. Run "Trade store"
-	<br/>Refer <a href="https://github.com/avikadam/db-code-assignment/tradestore/README.md">Trade store readme</a>
+Note: Client application needs authorization and file server running.
+
+###1. Run Doc Store Authorization server </br>
+1.1 Go to /doc-store-auth-server and execute following commands from terminal
+ 
+```
+npm start
+# or
+yarn start
+```
+  
+1.2 For details follow <a href="./docstore/doc-store-auth-server/README.md">README</a></br>
+
+###2. Run Doc Store File server </br>
+2.1 Go to /doc-store-server and execute following commands from terminal
+ 
+```
+npm start
+# or
+yarn start
+```
+  
+2.2 For details follow <a href="./docstore/doc-store-server/README.md">README</a></br>
+
+###3. Run Doc Store File upload client </br>
+3.1 Go to /doc-store-client and execute following commands from terminal
+ 
+```
+npm start
+# or
+yarn start
+```
+  
+3.2 For details follow <a href="./docstore/doc-store-client/README.md">README</a></br>
+3.3 Once client app is running, visit [http://localhost:8081](http://localhost:8081) and create new user</br>
+3.4 Use this user to login and perform file upload.
