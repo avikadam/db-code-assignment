@@ -13,6 +13,6 @@
 
 1. Checkout/download the repo
 2. Run "Doc Store"
-	<br/> Refer <a href="./docstore/README.md">Doc store readme</a> 
+	<br/> Refer <a href="https://github.com/avikadam/db-code-assignment/docstore/README.md">Doc store readme</a> 
 3. Run "Trade store"
-	<br/>Refer <a href="./tradestore/README.md">Trade store readme</a>
+	<br/>Refer <a href="https://github.com/avikadam/db-code-assignment/tradestore/README.md">Trade store readme</a>
